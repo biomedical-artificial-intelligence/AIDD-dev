@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AIDD-dev/static/css/main.f40303f5.css",
+    "main.css": "/AIDD-dev/static/css/main.9ca34bed.css",
     "main.js": "/AIDD-dev/static/js/main.da7022f9.js",
     "static/js/453.d2ff6b00.chunk.js": "/AIDD-dev/static/js/453.d2ff6b00.chunk.js",
     "static/media/INHYEOK_SONG.jpg": "/AIDD-dev/static/media/INHYEOK_SONG.6cc2130d931f3b755a13.jpg",
@@ -14,12 +14,12 @@
     "static/media/CHOI_JIYOON.jpg": "/AIDD-dev/static/media/CHOI_JIYOON.1f83d9a70e406a171a33.jpg",
     "static/media/SHIM_DAMI.jpg": "/AIDD-dev/static/media/SHIM_DAMI.10b42e5d7444e2b7c002.jpg",
     "index.html": "/AIDD-dev/index.html",
-    "main.f40303f5.css.map": "/AIDD-dev/static/css/main.f40303f5.css.map",
+    "main.9ca34bed.css.map": "/AIDD-dev/static/css/main.9ca34bed.css.map",
     "main.da7022f9.js.map": "/AIDD-dev/static/js/main.da7022f9.js.map",
     "453.d2ff6b00.chunk.js.map": "/AIDD-dev/static/js/453.d2ff6b00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f40303f5.css",
+    "static/css/main.9ca34bed.css",
     "static/js/main.da7022f9.js"
   ]
 }
