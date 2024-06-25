@@ -1,20 +1,22 @@
-import './App.css'
-import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Navbar from './components/common/Navbar'
-import Footer from './components/common/Footer'
-import Home from './pages/home/Home'
-import Research from './pages/research/Research'
-import Organization from './pages/organization/Organization'
-import People from './pages/people/People'
-import Publications from './pages/publications/Publications'
-import Contact from './pages/contact/Contact'
-import Positions from './pages/positions/Positions'
-import Gallery from './pages/gallery/Gallery'
+import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/common/Navbar';
+import Footer from './components/common/Footer';
+import Home from './pages/home/Home';
+import Research from './pages/research/Research';
+import Organization from './pages/organization/Organization';
+import People from './pages/people/People';
+import Publications from './pages/publications/Publications';
+import Contact from './pages/contact/Contact';
+import Positions from './pages/positions/Positions';
+import Gallery from './pages/gallery/Gallery';
 
 function App() {
+  const basename = process.env.NODE_ENV === 'production' ? '/AIDD-dev' : '/AIDD-dev';
+
   return (
-    <Router>
+    <Router basename={basename}>
       <div className="app-container-upside">
         <Navbar />
         <div className="app-contents">
@@ -34,7 +36,7 @@ function App() {
         <Footer />
       </div>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
