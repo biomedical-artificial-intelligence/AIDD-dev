@@ -39,16 +39,12 @@
   font-size: 13px;
   padding: 15px 20px;
   transition: color 0.3s ease;
-  /* 글씨 전환 효과 추가 */
-  /* font-weight: bold; */
 }
 
 .navbar-link:hover,
 .navbar-link.active {
   color: #fff;
 }
-
-
 
 /* 햄버거 메뉴 스타일 */
 .hamburger {
@@ -81,8 +77,6 @@
 
   .navbar-menu.active {
     display: flex;
-    top: 60px;
-    right: 0;
   }
 
   .navbar-item {
@@ -98,5 +92,20 @@
 
   .hamburger {
     display: flex;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-logo {
+    font-size: 20px;
+  }
+
+  .navbar-link {
+    font-size: 12px;
+    padding: 12px 15px;
+  }
+
+  .navbar-menu {
+    width: 100px;
   }
 }
