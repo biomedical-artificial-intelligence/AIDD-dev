@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #00001E;
+  background-color: #151515;
   color: white;
   min-height: 100vh;
   box-sizing: border-box;
@@ -26,7 +26,7 @@
   margin-bottom: 6vw;
 }
 
-.principal-title { 
+.principal-title {
   margin: 0;
   padding-top: 48px;
   /* margin-bottom: 40px; */
@@ -88,7 +88,8 @@
   /* padding: 16px */
 }
 
-.principal-video h3, .principal-news h3 {
+.principal-video h3,
+.principal-news h3 {
   color: #8c8c8c;
   font-size: 1.3em;
 }
@@ -144,7 +145,8 @@
   margin-bottom: 3vw;
 }
 
-.bio-lab h1, .dev h1 {
+.bio-lab h1,
+.dev h1 {
   color: #8c8c8c;
   font-size: 1.6em;
   text-align: left;

@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #00001E;
+  background-color: #151515;
   height: 64px;
   display: flex;
   align-items: center;
@@ -36,9 +36,10 @@
 .navbar-link {
   color: #8c8c8c;
   text-decoration: none;
-  font-size: 13px; 
+  font-size: 13px;
   padding: 15px 20px;
-  transition: color 0.3s ease; /* 글씨 전환 효과 추가 */
+  transition: color 0.3s ease;
+  /* 글씨 전환 효과 추가 */
   /* font-weight: bold; */
 }
 
@@ -77,20 +78,24 @@
     padding: 0;
     margin-right: 40px;
   }
+
   .navbar-menu.active {
     display: flex;
     top: 60px;
-    right: 0; 
+    right: 0;
   }
+
   .navbar-item {
     width: 100%;
     text-align: left;
     margin: 0;
   }
+
   .navbar-link {
     display: block;
     padding: 15px;
   }
+
   .hamburger {
     display: flex;
   }
