@@ -2,11 +2,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  /* padding: 20px; */
+  /* background-color: #1A1C1F; */
   background-color: #151515;
   color: white;
   min-height: 100vh;
   box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 12px;
+  /* 컨테이너 패딩: 거터의 절반 */
 }
 
 .page-title {
@@ -45,18 +50,52 @@
   font-size: 1.4em;
 }
 
+/* Tablet 버전 (768px - 991px) */
 @media (max-width: 991px) {
+  .main-container {
+    width: 90%;
+    padding: 0 10px;
+  }
+
+  .page-title {
+    font-size: 1.4em;
+  }
+
+  .main-title {
+    font-size: 2.5em;
+  }
+
+  .research-title h1 {
+    font-size: 1.5em;
+  }
+
+  .research-contents {
+    font-size: 1.2em;
+  }
+}
+
+/* Mobile 버전 (최대 767px) */
+@media (max-width: 767px) {
   .main-container {
     width: 100%;
     padding: 0 10px;
   }
 
-  .page-title,
+  .page-title {
+    font-size: 1.2em;
+  }
+
   .main-title {
     font-size: 2em;
+    margin-bottom: 30px;
   }
 
   .research-title h1 {
     font-size: 1.25em;
+  }
+
+  .research-contents {
+    font-size: 1em;
+    padding: 10px;
   }
 }
