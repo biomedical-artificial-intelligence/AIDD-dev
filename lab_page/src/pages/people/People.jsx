@@ -83,18 +83,22 @@ const People = () => {
             <div className="principal-video">
               <h3>TV & 동영상</h3>
               <div className="videos-container">
-                <iframe
-                  src="https://www.youtube.com/embed/3yTba8jyE9Q"
-                  title="YouTube video"
-                  className="profile-video"
-                  allowFullScreen
-                ></iframe>
-                <iframe
-                  src="https://www.youtube.com/embed/3vuxNnq7wlg"
-                  title="YouTube video"
-                  className="profile-video"
-                  allowFullScreen
-                ></iframe>
+                <div className="video-wrapper">
+                  <iframe
+                    src="https://www.youtube.com/embed/3yTba8jyE9Q"
+                    title="YouTube video"
+                    className="profile-video"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <div className="video-wrapper">
+                  <iframe
+                    src="https://www.youtube.com/embed/3vuxNnq7wlg"
+                    title="YouTube video"
+                    className="profile-video"
+                    allowFullScreen
+                  ></iframe>
+                </div>
               </div>
             </div>
             <div className="principal-news">

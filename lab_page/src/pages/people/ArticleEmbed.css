@@ -28,3 +28,17 @@
   color: #666;
   margin: 0;
 }
+
+@media (max-width: 767px) {
+  .article-embed {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    background-color: #151515;
+  }
+
+  .article-card {
+    width: 38%;
+  }
+}
