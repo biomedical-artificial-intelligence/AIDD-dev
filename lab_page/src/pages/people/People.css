@@ -1,4 +1,4 @@
-.total-container {
+/* .total-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,6 +7,22 @@
   color: white;
   min-height: 100vh;
   box-sizing: border-box;
+} */
+
+.total-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 20px; */
+  /* background-color: #1A1C1F; */
+  background-color: #151515;
+  color: white;
+  min-height: 100vh;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 12px;
+  /* 컨테이너 패딩: 거터의 절반 */
 }
 
 .page-title {
@@ -39,7 +55,7 @@
   padding-left: 0;
 }
 
-.photo-contents {
+.people-photo-contents {
   padding: 8px;
   display: flex;
   justify-content: flex-start
@@ -127,12 +143,12 @@
   padding-left: 0;
 }
 
-.photo {
+.people-photo {
   width: 13vw;
   padding: 16px;
 }
 
-.contents {
+.people-contents {
   padding-left: 16px;
 }
 

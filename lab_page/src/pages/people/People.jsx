@@ -44,7 +44,7 @@ const People = () => {
             <h1>PRINCIPAL INVESTIGATOR</h1>
             <h1>Sung-Wook Seo, Professor</h1>
           </div>
-          <div className="photo-contents">
+          <div className="people-photo-contents">
             <img src={seo} className="principal-photo" />
             <div className="principal-contents">
               <div className="introduce-principal">
@@ -108,9 +108,9 @@ const People = () => {
 
         <div className="people">
           <h1>COLLOBORATORS</h1>
-          <div className="photo-contents">
-            <img src={leejiyeon} className="photo" />
-            <div className="contents">
+          <div className="people-photo-contents">
+            <img src={leejiyeon} className="people-photo" />
+            <div className="people-contents">
               <div className="name-position">
                 <h2>Ji-Yeon Lee, Professor</h2>
               </div>
@@ -138,9 +138,9 @@ const People = () => {
           <div className="bio-lab">
             <h1>BIO LAB</h1>
             {/* 최지윤 */}
-            <div className="photo-contents">
-              <img src={jiyoonchoi} className="photo" />
-              <div className="contents">
+            <div className="people-photo-contents">
+              <img src={jiyoonchoi} className="people-photo" />
+              <div className="people-contents">
                 <div className="name-position">
                   <h2>Ji-Yoon Choi, Senior Researcher</h2>
                 </div>
@@ -151,9 +151,9 @@ const People = () => {
               </div>
             </div>
             {/* 심다미 */}
-            <div className="photo-contents">
-              <img src={damishim} className="photo" />
-              <div className="contents">
+            <div className="people-photo-contents">
+              <img src={damishim} className="people-photo" />
+              <div className="people-contents">
                 <div className="name-position">
                   <h2>Da-Mi Shim, Researcher</h2>
                 </div>
@@ -164,9 +164,9 @@ const People = () => {
               </div>
             </div>
             {/* 조윤희 */}
-            <div className="photo-contents">
-              <img src={yunhuijo} className="photo" />
-              <div className="contents">
+            <div className="people-photo-contents">
+              <img src={yunhuijo} className="people-photo" />
+              <div className="people-contents">
                 <div className="name-position">
                   <h2>Yun-Hui Jo, CRC</h2>
                 </div>
@@ -177,9 +177,9 @@ const People = () => {
               </div>
             </div>
             {/* 정혜인 */}
-            <div className="photo-contents">
-              <img src={hyeinjeong} className="photo" />
-              <div className="contents">
+            <div className="people-photo-contents">
+              <img src={hyeinjeong} className="people-photo" />
+              <div className="people-contents">
                 <div className="name-position">
                   <h2>Hye-In Jeong, Researcher</h2>
                 </div>
@@ -194,9 +194,9 @@ const People = () => {
           <div className="dev">
             <h1>DEV</h1>
             {/* 김지수 */}
-            <div className="photo-contents">
-              <img src={jisookim} className="photo" />
-              <div className="contents">
+            <div className="people-photo-contents">
+              <img src={jisookim} className="people-photo" />
+              <div className="people-contents">
                 <div className="name-position">
                   <h2>Ji-Soo Kim, Researcher</h2>
                 </div>
@@ -210,9 +210,9 @@ const People = () => {
               </div>
             </div>
             {/* 송인혁 */}
-            <div className="photo-contents">
-              <img src={inhyeoksong} className="photo" />
-              <div className="contents">
+            <div className="people-photo-contents">
+              <img src={inhyeoksong} className="people-photo" />
+              <div className="people-contents">
                 <div className="name-position">
                   <h2>In-Hyeok Song, Researcher</h2>
                 </div>
@@ -230,9 +230,9 @@ const People = () => {
               </div>
             </div>
             {/* 배근혜 */}
-            <div className="photo-contents">
-              <img src={geunhyebae} className="photo" />
-              <div className="contents">
+            <div className="people-photo-contents">
+              <img src={geunhyebae} className="people-photo" />
+              <div className="people-contents">
                 <div className="name-position">
                   <h2>Geun-Hye Bae, Researcher</h2>
                 </div>
@@ -251,9 +251,9 @@ const People = () => {
         <div className="people">
           <h1>GRADUATE STUDNETS</h1>
           {/* 수진 */}
-          <div className="photo-contents">
-            <img src={sujinlee} className="photo" />
-            <div className="contents">
+          <div className="people-photo-contents">
+            <img src={sujinlee} className="people-photo" />
+            <div className="people-contents">
               <div className="name-position">
                 <h2>Su-Jin Lee</h2>
               </div>
