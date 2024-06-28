@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/common/Navbar';
 import Footer from './components/common/Footer';
 import Home from './pages/home/Home';
@@ -13,10 +13,10 @@ import Positions from './pages/positions/Positions';
 import Gallery from './pages/gallery/Gallery';
 
 function App() {
-  const basename = process.env.NODE_ENV === 'production' ? '/AIDD-dev' : '/AIDD-dev';
+  // const basename = process.env.NODE_ENV === 'production' ? '/AIDD-dev' : '/AIDD-dev';
 
   return (
-    <Router basename={basename}>
+    <Router>
       <div className="app-container-upside">
         <Navbar />
         <div className="app-contents">
