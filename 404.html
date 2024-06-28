@@ -4,18 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <script>
-    // 현재 URL을 기반으로 올바른 경로로 리디렉션
-    var l = window.location;
-    var path = l.pathname.replace(/^\//, '');
-    var redirectTo = '/' + path;
+    (function () {
+      var l = window.location;
+      var path = l.pathname.slice(1);
 
-    // GitHub Pages URL 구조에 맞게 경로를 변경
-    if (path.includes('AIDD-dev')) {
-      redirectTo = '/AIDD-dev/' + path.replace('AIDD-dev/', '');
-    }
-
-    // 페이지 리디렉션
-    l.replace(redirectTo);
+      if (path.includes('AIDD-dev')) {
+        // 페이지가 AIDD-dev 경로를 포함하면 hashbang 방식으로 리디렉션
+        var newUrl = '/AIDD-dev/#' + path.replace('AIDD-dev/', '');
+        l.replace(newUrl);
+      } else {
+        // 기타 경로 처리 (필요시 추가 로직)
+        l.replace('/');
+      }
+    })();
   </script>
 </head>
 
