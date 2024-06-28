@@ -8,9 +8,10 @@
       var l = window.location;
       var path = l.pathname.slice(1);
 
+      // "AIDD-dev" 경로를 제거한 후 해시로 리디렉션
       if (path.includes('AIDD-dev')) {
-        // 페이지가 AIDD-dev 경로를 포함하면 hashbang 방식으로 리디렉션
-        var newUrl = '/AIDD-dev/#' + path.replace('AIDD-dev/', '');
+        var newPath = path.replace('AIDD-dev/', '');
+        var newUrl = '/AIDD-dev/#/' + newPath;
         l.replace(newUrl);
       } else {
         // 기타 경로 처리 (필요시 추가 로직)
