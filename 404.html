@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="refresh" content="0; url=/" />
+  <script>
+    // This script will redirect any 404 page to the root with the correct path
+    var l = window.location;
+    var path = l.pathname.slice(1);
+    var hash = '#' + path;
+    l.replace('/' + hash);
+  </script>
+</head>
+
+<body>
+</body>
+
+</html>
