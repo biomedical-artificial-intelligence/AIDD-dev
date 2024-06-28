@@ -2,13 +2,20 @@
 <html>
 
 <head>
-  <meta http-equiv="refresh" content="0; url=/" />
+  <meta charset="UTF-8">
   <script>
-    // This script will redirect any 404 page to the root with the correct path
+    // 현재 URL을 기반으로 올바른 경로로 리디렉션
     var l = window.location;
-    var path = l.pathname.slice(1);
-    var hash = '#' + path;
-    l.replace('/' + hash);
+    var path = l.pathname.replace(/^\//, '');
+    var redirectTo = '/' + path;
+
+    // GitHub Pages URL 구조에 맞게 경로를 변경
+    if (path.includes('AIDD-dev')) {
+      redirectTo = '/AIDD-dev/' + path.replace('AIDD-dev/', '');
+    }
+
+    // 페이지 리디렉션
+    l.replace(redirectTo);
   </script>
 </head>
 
