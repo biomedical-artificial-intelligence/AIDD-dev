@@ -9,12 +9,10 @@ const Positions = () => {
       </div>
       <div className="main-container">
         <div className="podoc">
-          <div className="positions-title">
-            <h1>
+          <h1 className="main-title">
               Postdoctoral Research Fellow Position in AI-Driven Protein
               Structure Analysis
-            </h1>
-          </div>
+          </h1>
           <div className="positions-contents">
             <h3>Institution: </h3>
             Samsung Medical Center, Sungkyunkwan University of Medicine
@@ -79,7 +77,7 @@ const Positions = () => {
           </div>
         </div> */}
 
-        <div className="contact-email">
+        <div className="positions-email">
           <h1>sungwseo@gmail.com</h1>
         </div>
       </div>
