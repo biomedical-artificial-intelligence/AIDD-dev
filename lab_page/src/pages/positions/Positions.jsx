@@ -1,9 +1,15 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async';
 import './Positions.css'
 
 const Positions = () => {
   return (
     <div className="total-container">
+      <Helmet>
+        <title>Positions - SilicoWorks Lab</title>
+        <meta name="description" content="Position information for SilicoWorks Lab" />
+        <link rel="canonical" href="https://biomedical-artificial-intelligence.github.io/AIDD-dev/positions" />
+      </Helmet>
       <div className="page">
         <h1 className="page-title">Positions</h1>
       </div>

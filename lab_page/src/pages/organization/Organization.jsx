@@ -3,6 +3,7 @@ import Node from './Node'
 import organization from '../../assets/data/org.json'
 import TeamTable from './TeamTable'
 import './Organization.css'
+import { Helmet } from 'react-helmet-async';
 
 // 노드별 데이터를 설정
 const nodeData = {
@@ -30,6 +31,11 @@ const Organization = () => {
 
   return (
     <div className="total-container">
+      <Helmet>
+        <title>Organization - SilicoWorks Lab</title>
+        <meta name="description" content="Organization information for SilicoWorks Lab" />
+        <link rel="canonical" href="https://biomedical-artificial-intelligence.github.io/AIDD-dev/organization" />
+      </Helmet>
       <div className="page">
         <h1 className="page-title">Organization</h1>
       </div>
