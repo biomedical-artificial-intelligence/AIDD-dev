@@ -34,8 +34,9 @@ const TeamTable = ({ data }) => {
 TeamTable.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.shape({
-      name: PropTypes.string.isRequired, // 데이터 항목의 이름
-      detail: PropTypes.string.isRequired, // 데이터 항목의 세부 정보
+      부서: PropTypes.string.isRequired, 
+      성명: PropTypes.string.isRequired, 
+      담당업무: PropTypes.string.isRequired, 
     })
   ).isRequired, // data prop은 필수
 }
