@@ -30,7 +30,7 @@ const nodeData = {
 const Organization = () => {
   const [selectedNode, setSelectedNode] = useState(null) // 선택된 노드 상태
 
-  console.log('Loaded organization data:', organization)
+  // console.log('Loaded organization data:', organization)
 
   const handleNodeClick = (node) => {
     setSelectedNode(node.tradingName) // 선택된 노드의 이름을 상태로 설정
