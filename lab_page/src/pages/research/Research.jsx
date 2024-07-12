@@ -29,6 +29,8 @@ const Research = () => {
             <br />
             Our lab is focused on advancing causal inference algorithms to
             understand the effectiveness of personalized treatments.
+            <br />
+            <a href=''>More details</a>
           </div>
         </div>
         <div className="research-container">
