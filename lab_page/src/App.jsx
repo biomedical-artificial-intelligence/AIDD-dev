@@ -6,6 +6,7 @@ import Navbar from './components/common/Navbar';
 import Footer from './components/common/Footer';
 import Home from './pages/home/Home';
 import Research from './pages/research/Research';
+import CausalInference from './pages/research/causal-inference/CausalInference';
 import Organization from './pages/organization/Organization';
 import People from './pages/people/People';
 import Publications from './pages/publications/Publications';
@@ -25,6 +26,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/research" element={<Research />} />
+              <Route path='/research/causal-inference' element={<CausalInference />} />
               <Route path="/organization" element={<Organization />} />
               <Route path="/people" element={<People />} />
               <Route path="/publications" element={<Publications />} />

@@ -1,8 +1,13 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async'
 import './Research.css'
 
 const Research = () => {
+  const navigate = useNavigate();
+  const handleMoreDetailsClick = () => {
+    navigate('/research/causal-inference');
+  };
   return (
     <div className="total-container">
       <Helmet>
@@ -30,7 +35,7 @@ const Research = () => {
             Our lab is focused on advancing causal inference algorithms to
             understand the effectiveness of personalized treatments.
             <br />
-            <a href=''>More details</a>
+            <button className='details-btn' onClick={handleMoreDetailsClick}>More Details</button>
           </div>
         </div>
         <div className="research-container">
