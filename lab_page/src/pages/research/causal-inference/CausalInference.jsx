@@ -92,9 +92,65 @@ const CausalInference = () => {
             The performance between simple DQN and C-search DQN were compared using evaluation by online policy selection.
             The performance of C-search DQN is closed to that of online DQN.
             However, conventional DQN performs poorly.
-
           </div>
         </div>
+        <div className='research-container'>
+          <table className='ci-table'>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>국내</td>
+                <td>인공신경망을 이용한 위암의 예후 예측 방법, 장치 및 프로그램</td>
+                <td>10-2019-7003924</td>
+                <td>10-2190299</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>국내</td>
+                <td>생존율 예측 모델 생성 방법, 장치 및 컴퓨터 프로그램</td>
+                <td>10-2017-0017642</td>
+                <td>10-2127449</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>국내</td>
+                <td>인공신경망을 이용한 활액막 육종의 예후 예측 방법, 장치 및 프로그램</td>
+                <td>10-2017-0033206</td>
+                <td>10-2172374</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>국내</td>
+                <td>기계학습을 이용한 난소암의 예후 예측 방법, 장치 및 프로그램</td>
+                <td>10-2017-0091056</td>
+                <td>10-2061800</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>국내</td>
+                <td>기록된 데이터에서 인과성을 식별하는 강화학습 방법, 장치 및 프로그램</td>
+                <td>10-2020-0020549</td>
+                <td>10-2440817</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>국내</td>
+                <td>대퇴골 x-레이 영상을 이용한 학습 모델 기반의 종양 분류 방법 및 분석장치</td>
+                <td>10-2022-0035243</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>국내</td>
+                <td>인과추론기반 효율적 임상시험 대상자 모집 강화학습 모델 트레이닝 방법 및 장치</td>
+                <td>10-2023-0162089</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
       </div>
 
     </div>
