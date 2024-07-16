@@ -149,7 +149,25 @@ const CausalInference = () => {
             </tbody>
           </table>
         </div>
+        <div className='research-container'>
+          <p>
+            1. Park, C. W., Seo, S. W., Kang, N., Ko, B., Choi, B. W., Park, C. M., ... & Yoon, H. J. (2020). Artificial intelligence in health care: current applications and issues. Journal of Korean medical science, 35(42).
+          </p>
+          <p>
+            2. Ryu, S. M., Seo, S. W., & Lee, S. H. (2020). Novel prognostication of patients with spinal and pelvic chondrosarcoma using deep survival neural networks. BMC medical informatics and decision making, 20, 1-10.
+          </p>
+          <p>
+            3. Paik, E. S., Lee, J. W., Park, J. Y., Kim, J. H., Kim, M., Kim, T. J., ... & Seo, S. W. (2019). Prediction of survival outcomes in patients with epithelial ovarian cancer using machine learning methods. Journal of gynecologic oncology, 30(4).
+          </p>
+          <p>
+            4. Kim, J., Hong, J. Y., Kim, S. T., Park, S. H., Jekal, S. Y., Choi, J. S., ... & Lee, J. (2020). Clinical scoring system for the prediction of survival of patients with advanced gastric cancer. ESMO open, 5(2), e000670.
+          </p>
+          <p>5. Seo, S. W., Kim, J., Son, J., & Lim, S. (2020). Evaluation of conditional treatment effects of adjuvant treatments on patients with synovial sarcoma using Bayesian subgroup analysis. BMC Medical Informatics and Decision Making, 20, 1-12.</p>
+          <p>6. Han, I., Kim, J. H., Park, H., Kim, H. S., & Seo, S. W. (2018). Deep learning approach for survival prediction for patients with synovial sarcoma. Tumor Biology, 40(9), 1010428318799264.</p>
+          <p>7. Oh, S. E., Seo, S. W., Choi, M. G., Sohn, T. S., Bae, J. M., & Kim, S. (2018). Prediction of overall survival and novel classification of patients with gastric cancer using the survival recurrent network. Annals of surgical oncology, 25, 1153-1159.</p>
+          <p>8. Lee, J., An, J. Y., Choi, M. G., Park, S. H., Kim, S. T., Lee, J. H., ... & Seo, S. W. (2018). Deep learning–based survival analysis identified associations between molecular subtype and optimal adjuvant treatment of patients with gastric cancer. JCO clinical cancer informatics, 2, 1-14.</p>
 
+        </div>
 
       </div>
 
