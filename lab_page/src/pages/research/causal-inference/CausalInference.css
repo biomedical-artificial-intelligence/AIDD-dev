@@ -65,10 +65,15 @@ img {
 
 .ci-table {
     background-color: #333;
+
 }
 
 .ci-table:hover {
     color: #151515;
+}
+
+.ci-table td:nth-child(2) {
+    width: 36px;
 }
 
 /* Tablet 버전 (768px - 991px) */
