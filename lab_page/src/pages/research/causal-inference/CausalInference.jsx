@@ -7,7 +7,6 @@ import c from '../../../assets/images/research/c.png'
 import d from '../../../assets/images/research/d.png'
 import e from '../../../assets/images/research/e.png'
 import f from '../../../assets/images/research/f.png'
-import g from '../../../assets/images/research/g.png'
 
 const CausalInference = () => {
   return (
@@ -66,7 +65,6 @@ const CausalInference = () => {
             The log-rank test shows a slower increase in performance.
             Nine Genes were discovered as a positive modulator to improve chemotherapeutic effect in breast cancer.
             <img src={d} className="causal-photo" alt='Nine Genes' />
-            <img src={e} className="causal-photo" alt='Nine Genes' />
             Discovery of positive modulator genes by C-search in the cBioPortal breast cancer dataset.
             Nine causal genes are discovered, and patients with causal genes are assigned to the causal gene group.
             Patients without casual genes are assigned to the other gene group.
@@ -80,14 +78,14 @@ const CausalInference = () => {
             We developed counterfactual search algorithm (C-search) which bridge the gap between causal inference and the RL method using a modified reward.
             C-search infers the individual causal effect from the offline data and feed it to the RL as a reward.
             C-search methods significantly improve the performance and the robustness of offline RL in some challenge situations simulated by artificial data.
-            <img src={f} className="causal-photo" alt='The C-search improves offline RL' />
+            <img src={e} className="causal-photo" alt='The C-search improves offline RL' />
             DQN with C-search algorithm C-search receives action (T = α) from the RL model and returns a causal reward (RICE) that is inferred from the offline data.
             The pseudo-causal effect ∆Yi (X, X ′ ) is an outcome difference between the individ- ual X and pseudo-counterfactual X′ that is sampled from the offline data pool (T ̸= α).
             The causal reward is a weighted av- erage rewards of pseudo-causal effect.
             The weight W (X |X ′ ) is estimated according to the similarity between X and X′.
             DQN agent receive the causal reward (RI C E ) from C-search. The agent updates parameter θ as it learns RICE for T = α on X.
             The target Q-network copies the updated parameter θ after training the Q-network with a certain number of training data.
-            <img src={g} className="causal-photo" alt='DQN' />
+            <img src={f} className="causal-photo" alt='DQN' />
             We incorporated C-search algorithm to DQN for CartPole balancing problem, which is one of the simplest task to compare the performance of the offline RLs.
             The performance between simple DQN and C-search DQN were compared using evaluation by online policy selection.
             The performance of C-search DQN is closed to that of online DQN.
