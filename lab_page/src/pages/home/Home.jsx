@@ -10,10 +10,10 @@ const Home = () => {
         <meta name="description" content="Welcome to the homepage of SilicoWorks Lab." />
         <link rel="canonical" href="https://biomedical-artificial-intelligence.github.io/AIDD-dev/" />
       </Helmet>
-      <h1 className="home-title">
+      {/* <h1 className="home-title">
         SilicoWorks
         <span>™</span>
-      </h1>
+      </h1> */}
     </div>
   )
 }
