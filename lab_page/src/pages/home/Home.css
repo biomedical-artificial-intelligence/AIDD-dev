@@ -55,7 +55,7 @@
     background-size: 200%;
     /* animation: animate 8s linear infinite; */
     /* 효과 처음만, 텍스트 색상 변경 애니메이션 추가 */
-    animation: animate 8s linear forwards, textColor 0s linear 6s forwards;
+    animation: animate 8s linear forwards, textColor 0s linear 7s forwards;
     /* animation: animate 8s linear forwards, textColorChange 0s linear 8s forwards; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
@@ -77,7 +77,7 @@
     }
 
     100% {
-        -webkit-text-fill-color: rgba(200, 200, 200, 0.6);
+        -webkit-text-fill-color: rgba(255, 255, 255, 1);
     }
 }
 
