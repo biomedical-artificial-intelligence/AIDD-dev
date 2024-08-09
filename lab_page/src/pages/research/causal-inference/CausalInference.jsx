@@ -19,7 +19,7 @@ const CausalInference = () => {
 
       <h1 className="page-title">Research</h1>
       <div className="main-container">
-        <h1 className="main-title">Our Research Interest</h1>
+        <h1 className="main-title">Causal Inference</h1>
         <div className="research-container">
           <div className="research-title">
             <h1>Win probability for survival data analysis</h1>
