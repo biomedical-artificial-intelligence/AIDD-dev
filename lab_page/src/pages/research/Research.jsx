@@ -5,9 +5,10 @@ import './Research.css'
 
 const Research = () => {
   const navigate = useNavigate();
-  const handleMoreDetailsClick = () => {
-    navigate('/research/causal-inference');
+  const handleMoreDetailsClick = (path) => {
+    navigate(path);
   };
+
   return (
     <div className="total-container">
       <Helmet>
@@ -35,7 +36,7 @@ const Research = () => {
             Our lab is focused on advancing causal inference algorithms to
             understand the effectiveness of personalized treatments.
             <br />
-            <button className='details-btn' onClick={handleMoreDetailsClick}>More Details</button>
+            <button className='details-btn' onClick={() => handleMoreDetailsClick('/research/causal-inference')}>More Details</button>
           </div>
         </div>
         <div className="research-container">
@@ -58,6 +59,8 @@ const Research = () => {
             Our lab is focused on analyzing sarcoma-specific fusion genes to
             discover new biomarkers for diagnosis and developing
             patient-tailored treatments such as antibodies and CARs.
+            <br />
+            <button className='details-btn' onClick={() => handleMoreDetailsClick('/research/sarcoma-biology')}>More Details</button>
           </div>
         </div>
         <div className="research-container">
