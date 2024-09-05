@@ -1,12 +1,12 @@
 import React from 'react'
 import { Helmet } from 'react-helmet-async'
 import './CausalInference.css'
-import a from '../../../assets/images/research/a.png'
-import b from '../../../assets/images/research/b.png'
-import c from '../../../assets/images/research/c.png'
-import d from '../../../assets/images/research/d.png'
-import e from '../../../assets/images/research/e.png'
-import f from '../../../assets/images/research/f.png'
+import a from '../../../assets/images/research/causal-inference/a.png'
+import b from '../../../assets/images/research/causal-inference/b.png'
+import c from '../../../assets/images/research/causal-inference/c.png'
+import d from '../../../assets/images/research/causal-inference/d.png'
+import e from '../../../assets/images/research/causal-inference/e.png'
+import f from '../../../assets/images/research/causal-inference/f.png'
 
 const CausalInference = () => {
   return (
